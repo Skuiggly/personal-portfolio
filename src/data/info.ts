@@ -87,11 +87,11 @@ export const info = {
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Tic-Tic-Toe in React",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
-    },
+      thumbnail: "/assets/images/tic-tac-toe.png",
+      githubUrl: "https://github.com/Skuiggly/tic_tac_toe",
+      liveUrl: "https://tic-tac-toe-skuiggly.vercel.app/",
+    }
   ],
 };
