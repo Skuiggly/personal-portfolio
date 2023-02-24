@@ -90,6 +90,12 @@ export const info = {
       thumbnail: "/assets/images/tic-tac-toe.png",
       githubUrl: "https://github.com/Skuiggly/tic_tac_toe",
       liveUrl: "https://tic-tac-toe-skuiggly.vercel.app/",
-    }
+    },
+    {
+      title: "Live Show",
+      thumbnail: "/assets/images/elevkveld_bilde_16_9.jpg",
+      isFeatured: true,
+      liveUrl: "https://youtu.be/pB-VkCRCHa4",
+    },
   ],
 };
