@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://personal-portfolio-skuiggly.vercel.app/",
+  baseUrl: "https://personal-portfolio-phibkro.vercel.app/",
   name: "Philip Krogh",
   jobDescription: "Student",
   about: `I'm a student from Oslo with a passion for everything digital.
@@ -69,7 +69,7 @@ export const info = {
   ],
 
   socialMedia: {
-    github: "https://github.com/Skuiggly",
+    github: "https://github.com/phibkro",
     email: "philib.krogh@gmail.com",
     linkedin: "https://www.linkedin.com/in/philib-krogh/",
   },
@@ -79,15 +79,15 @@ export const info = {
       title: "News Homepage",
       isFeatured: true,
       thumbnail: "/assets/images/news-homepage.png",
-      githubUrl: "https://github.com/Skuiggly/news-homepage",
-      liveUrl: "https://news-homepage-skuiggly.vercel.app/"
+      githubUrl: "https://github.com/phibkro/news-homepage",
+      liveUrl: "https://news-homepage-phibkro.vercel.app/"
     },
     {
       title: "Tic-Tic-Toe in React",
       isFeatured: true,
       thumbnail: "/assets/images/tic-tac-toe.png",
-      githubUrl: "https://github.com/Skuiggly/tic_tac_toe",
-      liveUrl: "https://tic-tac-toe-skuiggly.vercel.app/",
+      githubUrl: "https://github.com/phibkro/tic_tac_toe",
+      liveUrl: "https://tic-tac-toe-phibkro.vercel.app/",
     },
     {
       title: "Live Show",
@@ -99,36 +99,36 @@ export const info = {
       title: "Brutalist Art Site",
       thumbnail: "/assets/images/art-site.png",
       isFeatured: true,
-      githubUrl: "https://github.com/Skuiggly/brutalist-art-site",
+      githubUrl: "https://github.com/phibkro/brutalist-art-site",
       liveUrl: "https://art-site-lilac.vercel.app/",
     },
     {
       title: "Interactive rating component",
       thumbnail: "/assets/images/interactive-rating-component.png",
       isFeatured: false,
-      githubUrl: "https://github.com/Skuiggly/interactive-rating-component",
-      liveUrl: "https://interactive-rating-component-skuiggly.vercel.app/",
+      githubUrl: "https://github.com/phibkro/interactive-rating-component",
+      liveUrl: "https://interactive-rating-component-phibkro.vercel.app/",
     },
     {
       title: "Giphy API exercise",
       thumbnail: "/assets/images/cats.png",
-      githubUrl: "https://github.com/Skuiggly/giphy_API_exercise",
-      liveUrl: "https://skuiggly.github.io/giphy_API_exercise/",
+      githubUrl: "https://github.com/phibkro/giphy_API_exercise",
+      liveUrl: "https://phibkro.github.io/giphy_API_exercise/",
       isFeatured: false,
     },
     {
       title: "Recipe Book",
       thumbnail: "/assets/images/recipe.png",
       isFeatured: false,
-      githubUrl: "https://github.com/Skuiggly/odin-recipes",
-      liveUrl: "https://skuiggly.github.io/odin-recipes/",
+      githubUrl: "https://github.com/phibkro/odin-recipes",
+      liveUrl: "https://phibkro.github.io/odin-recipes/",
     },
     {
       title: "Landing Page",
       thumbnail: "/assets/images/landing-page.png",
       isFeatured: false,
-      githubUrl: "https://github.com/Skuiggly/odin-landing-page",
-      liveUrl: "https://skuiggly.github.io/odin-landing-page/",
+      githubUrl: "https://github.com/phibkro/odin-landing-page",
+      liveUrl: "https://phibkro.github.io/odin-landing-page/",
     },
   ],
 };
