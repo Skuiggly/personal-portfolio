@@ -76,6 +76,13 @@ export const info = {
 
   projects: [
     {
+      title: "News Homepage",
+      isFeatured: true,
+      thumbnail: "/assets/images/news-homepage.png",
+      githubUrl: "https://github.com/Skuiggly/news-homepage",
+      liveUrl: "https://news-homepage-skuiggly.vercel.app/,"
+    },
+    {
       title: "Tic-Tic-Toe in React",
       isFeatured: true,
       thumbnail: "/assets/images/tic-tac-toe.png",
