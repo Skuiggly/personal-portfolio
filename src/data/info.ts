@@ -1,79 +1,70 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
-  jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
-   I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
-   I have successfully completed several web projects from scratch. 
-   Yet, I learn continuously and never stop exploring new technologies.
-   So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
-   firebase and React Native with time.
+  name: "Philip Krogh",
+  jobDescription: "Student",
+  about: `I'm a student from Oslo with a passion for everything digital.
+  I enjoy creating websites, videos, music, etc.
+  At middle school I was taught HTML, CSS, Javascript, SQL, and how relational databases worked.
+  Afterwards I've learnt about React and other web frameworks in my spare time.
+  I love learning about new technologies, the problems they solve and how they solve them.
+  Technologies like: Svelte, Astro, Deno, NEXT, TailwindCSS
   `,
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
-      endDate: "Present",
-      description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
-      ],
+      name: "Store Employee",
+      location: "Skafferiet",
+      startDate: "Aug 2021",
+      endDate: "Feb 2022",
+      description: [],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
-      description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
-      ],
+      name: "Mentor",
+      location: "MentorNorge",
+      startDate: "Nov 2021",
+      endDate: "Dec 2021",
+      description: [""],
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
-      description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
-      ],
+      name: "IT Support",
+      location: "Kamy Kommunikasjon",
+      startDate: "Jun 2020",
+      endDate: "Aug 2020",
+      description: [""],
     },
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Folkehøgskolen Sørlandet",
+      location: "Digital Creativity",
+      startDate: "Aug 2022",
+      endDate: "Current",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "A gap year spent learning and practicing:",
+        "-Cinematography",
+        "-Video editing",
+        "-VFX",
+        "-Music production",
+        "-Photography",
+        "We, as a team of 19, even collaborated to create a music video and a live show"
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
+      name: "BI Norwegian Business School",
+      location: "Creative Industries Management",
+      startDate: "Mar 2021",
+      endDate: "Aug 2021",
+      description: ["A small time spent experimenting"],
     },
     {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      name: "University of Oslo",
+      location: "Informatics",
+      startDate: "Aug 2020",
+      endDate: "Jan 2021",
+      description: [""],
     },
   ],
 
