@@ -80,7 +80,7 @@ export const info = {
       isFeatured: true,
       thumbnail: "/assets/images/news-homepage.png",
       githubUrl: "https://github.com/Skuiggly/news-homepage",
-      liveUrl: "https://news-homepage-skuiggly.vercel.app/,"
+      liveUrl: "https://news-homepage-skuiggly.vercel.app/"
     },
     {
       title: "Tic-Tic-Toe in React",
