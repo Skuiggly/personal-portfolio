@@ -16,7 +16,7 @@ export const info = {
       location: "Skafferiet",
       startDate: "Aug 2021",
       endDate: "Feb 2022",
-      description: [],
+      description: [""],
     },
 
     {
@@ -87,6 +87,41 @@ export const info = {
       thumbnail: "/assets/images/elevkveld_bilde_16_9.jpg",
       isFeatured: true,
       liveUrl: "https://youtu.be/pB-VkCRCHa4",
+    },
+    {
+      title: "Brutalist Art Site",
+      thumbnail: "/assets/images/art-site.png",
+      isFeatured: true,
+      githubUrl: "https://github.com/Skuiggly/brutalist-art-site",
+      liveUrl: "https://art-site-lilac.vercel.app/",
+    },
+    {
+      title: "Interactive rating component",
+      thumbnail: "/assets/images/interactive-rating-component.png",
+      isFeatured: false,
+      githubUrl: "https://github.com/Skuiggly/interactive-rating-component",
+      liveUrl: "https://interactive-rating-component-skuiggly.vercel.app/",
+    },
+    {
+      title: "Giphy API exercise",
+      thumbnail: "/assets/images/cats.png",
+      githubUrl: "https://github.com/Skuiggly/giphy_API_exercise",
+      liveUrl: "https://skuiggly.github.io/giphy_API_exercise/",
+      isFeatured: false,
+    },
+    {
+      title: "Recipe Book",
+      thumbnail: "/assets/images/recipe.png",
+      isFeatured: false,
+      githubUrl: "https://github.com/Skuiggly/odin-recipes",
+      liveUrl: "https://skuiggly.github.io/odin-recipes/",
+    },
+    {
+      title: "Landing Page",
+      thumbnail: "/assets/images/landing-page.png",
+      isFeatured: false,
+      githubUrl: "https://github.com/Skuiggly/odin-landing-page",
+      liveUrl: "https://skuiggly.github.io/odin-landing-page/",
     },
   ],
 };
