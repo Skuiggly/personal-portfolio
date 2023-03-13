@@ -22,7 +22,7 @@
   h4,
   h5,
   h6 {
-    @apply font-outfit;
+    @apply font-outfit dark:text-light;
   }
   h1 {
     @apply text-6xl sm:text-8xl main-heading;
@@ -32,7 +32,8 @@
   }
   p,
   li,
-  a {
-    @apply font-inter text-dark-gray;
+  a,
+  label {
+    @apply font-inter text-dark-gray dark:text-light;
   }
 }
