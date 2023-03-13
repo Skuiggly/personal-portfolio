@@ -7,7 +7,9 @@ import Experience from "@components/home/Experience.astro";
 import ProjectsWrapper from "@components/general/ProjectsWrapper.astro";
 import MetaHead from "@components/general/MetaHead.astro";
 
-const featuredProjects = info.projects.filter((project, index) => project.isFeatured && index < 6);
+const featuredProjects = info.projects.filter(
+  (project, index) => project.isFeatured && index < 6
+);
 ---
 
 <!DOCTYPE html>
@@ -26,7 +28,7 @@ const featuredProjects = info.projects.filter((project, index) => project.isFeat
       <Experience title={"EXPERIENCE"} details={info.experience} />
       <Experience title={"EDUCATION"} details={info.education} />
       <section>
-        <h2 class="w-[15rem] dark:text-light mt-16">FEATURED PROJECTS</h2>
+        <h2 class="w-[15rem] mt-16">FEATURED PROJECTS</h2>
         <ProjectsWrapper projects={featuredProjects} />
       </section>
     </Layout>
