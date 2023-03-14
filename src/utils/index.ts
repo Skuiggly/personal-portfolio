@@ -1,8 +1,8 @@
-const createLogo = (name) =>
+const composeNameInitials = (name) =>
   name
     .split(" ")
     .map((word) => word[0])
     .join("")
     .toUpperCase();
 
-export { createLogo };
+export { composeNameInitials };
