@@ -1,13 +1,13 @@
 ---
 import { info } from "@data";
-import { createLogo } from "@utils";
+import { composeNameInitials } from "@utils";
 ---
 
 <header
   class="container flex items-center justify-between h-[80px] sm:h-[123px]"
 >
   <a class="text-2xl font-semibold dark:font-semibold font-outfit" href="/">
-    {createLogo(info.name)}.
+    {composeNameInitials(info.name)}.
   </a>
   <nav>
     <ul class="flex items-center">
