@@ -2,12 +2,12 @@ export const info = {
   baseUrl: "https://personal-portfolio-phibkro.vercel.app/",
   name: "Philip Krogh",
   jobDescription: "Student",
-  about: `I'm a student from Oslo with a passion for everything digital.
-  I enjoy creating websites, videos, music, etc.
-  At middle school I was taught HTML, CSS, Javascript, SQL, and how relational databases worked.
-  Afterwards I've learnt about React and other web frameworks in my spare time.
-  I love learning about new technologies, the problems they solve and how they solve them.
-  Technologies like: Svelte, Astro, Deno, NEXT, TailwindCSS
+  about: `an informatics student with an obsession for learning and applying concepts, techniques, and systems of thinking.
+  When I am not learning about informatics, then I learn about culinary science, coffee brewing techniques or other likewise hobbies.
+  If I am not learning at all then I'm going to concerts of my favorite artists or watching movies and/or series.
+  At middle school I was taught basic web technologies like HTML, CSS, Javascript, SQL, and how relational databases worked.
+  Afterwards I've used the internet to learn about modern mature technologies like React, NEXTJS, and TailwindCSS but also
+  more bleeding edge technologies like Astro, Svelte, Deno, and SolidJS.
   `,
 
   experience: [
@@ -38,10 +38,17 @@ export const info = {
 
   education: [
     {
+      name: "NTNU",
+      location: "Informatics",
+      startDate: "Aug 2023",
+      endDate: "Current",
+      description: ["Bachelor's degree in informatics"],
+    },
+    {
       name: "Folkehøgskolen Sørlandet",
       location: "Digital Creativity",
       startDate: "Aug 2022",
-      endDate: "Current",
+      endDate: "May 2023",
       description: [
         "A gap year spent learning and practicing:",
         "-Cinematography",
@@ -49,7 +56,7 @@ export const info = {
         "-VFX",
         "-Music production",
         "-Photography",
-        "We, as a team of 19, even collaborated to create a music video and a live show"
+        "We, as a team of 19, even collaborated to create a music video and a live show",
       ],
     },
     {
@@ -64,7 +71,7 @@ export const info = {
       location: "Informatics",
       startDate: "Aug 2020",
       endDate: "Jan 2021",
-      description: [""],
+      description: ["Covid wasn't very nice to me"],
     },
   ],
 
@@ -76,11 +83,18 @@ export const info = {
 
   projects: [
     {
+      title: "finnbydel",
+      isFeatured: true,
+      thumbnail: "/assets/images/finnbydel.png",
+      githubUrl: "https://github.com/phibkro/finnbydel",
+      liveUrl: "https://finnbydel.vercel.app/",
+    },
+    {
       title: "News Homepage",
       isFeatured: true,
       thumbnail: "/assets/images/news-homepage.png",
       githubUrl: "https://github.com/phibkro/news-homepage",
-      liveUrl: "https://news-homepage-phibkro.vercel.app/"
+      liveUrl: "https://news-homepage-phibkro.vercel.app/",
     },
     {
       title: "Tic-Tic-Toe in React",
@@ -98,7 +112,7 @@ export const info = {
     {
       title: "Brutalist Art Site",
       thumbnail: "/assets/images/art-site.png",
-      isFeatured: true,
+      isFeatured: false,
       githubUrl: "https://github.com/phibkro/brutalist-art-site",
       liveUrl: "https://art-site-lilac.vercel.app/",
     },
