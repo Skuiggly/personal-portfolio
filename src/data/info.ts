@@ -83,6 +83,13 @@ export const info = {
 
   projects: [
     {
+      title: "Informatics notes",
+      isFeatured: true,
+      thumbnail: "/assets/images/informatics-notes.png",
+      githubUrl: "https://github.com/phibkro/informatics-notes",
+      liveUrl: "https://informatics-notes.vercel.app/",
+    },
+    {
       title: "finnbydel",
       isFeatured: true,
       thumbnail: "/assets/images/finnbydel.png",
@@ -98,7 +105,7 @@ export const info = {
     },
     {
       title: "Tic-Tic-Toe in React",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/tic-tac-toe.png",
       githubUrl: "https://github.com/phibkro/tic_tac_toe",
       liveUrl: "https://tic-tac-toe-phibkro.vercel.app/",
