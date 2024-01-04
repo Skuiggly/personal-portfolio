@@ -20,14 +20,6 @@ export const info = {
     },
 
     {
-      name: "Mentor",
-      location: "MentorNorge",
-      startDate: "Nov 2021",
-      endDate: "Dec 2021",
-      description: [""],
-    },
-
-    {
       name: "IT Support",
       location: "Kamy Kommunikasjon",
       startDate: "Jun 2020",
@@ -83,6 +75,18 @@ export const info = {
 
   projects: [
     {
+      title: "Drinks",
+      isFeatured: true,
+      githubUrl: "https://github.com/phibkro/drinks",
+    },
+    {
+      title: "Filmder",
+      isFeatured: true,
+      thumbnail: "/assets/images/filmder.png",
+      githubUrl: "https://github.com/phibkro/filmder",
+      liveUrl: "https://filmder.vercel.app/",
+    },
+    {
       title: "Informatics notes",
       isFeatured: true,
       thumbnail: "/assets/images/informatics-notes.png",
@@ -98,7 +102,7 @@ export const info = {
     },
     {
       title: "News Homepage",
-      isFeatured: true,
+      isFeatured: false,
       thumbnail: "/assets/images/news-homepage.png",
       githubUrl: "https://github.com/phibkro/news-homepage",
       liveUrl: "https://news-homepage-phibkro.vercel.app/",

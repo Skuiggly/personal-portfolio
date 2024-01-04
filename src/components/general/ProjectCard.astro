@@ -60,7 +60,7 @@ const { title, thumbnail, liveUrl, githubUrl } = projectDetail;
     }
   </div>
   <img
-    src={thumbnail}
+    src={thumbnail ? thumbnail : "/assets/images/placeholder.png"}
     class="w-full h-auto scale-100 hover:scale-110 transition duration-[1.5s] aspect-video object-cover"
     loading="lazy"
     width="100%"

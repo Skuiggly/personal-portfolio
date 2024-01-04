@@ -25,12 +25,12 @@ const featuredProjects = info.projects.filter(
   <body>
     <Layout>
       <Hero name={info.name} about={info.about} />
-      <Experience title={"EXPERIENCE"} details={info.experience} />
-      <Experience title={"EDUCATION"} details={info.education} />
       <section>
         <h2 class="w-[15rem] mt-16">FEATURED PROJECTS</h2>
         <ProjectsWrapper projects={featuredProjects} />
       </section>
+      <Experience title={"EXPERIENCE"} details={info.experience} />
+      <Experience title={"EDUCATION"} details={info.education} />
     </Layout>
   </body>
 </html>
